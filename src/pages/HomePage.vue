@@ -25,6 +25,6 @@ export default {
 
 <style scoped>
 .activityMargin {
-  padding-top: 10rem;
+  padding-top: 3rem;
 }
 </style>
