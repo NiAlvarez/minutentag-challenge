@@ -1,0 +1,90 @@
+@font-face {
+  font-family: helveticaLight;
+  src: url(assets/fonts/HelveticaNeueCyr-Light.ttf);
+}
+
+@font-face {
+  font-family: helveticaBold;
+  src: url(assets/fonts/HelveticaNeueCyr-Bold.ttf);
+}
+
+@font-face {
+  font-family: helveticaMedium;
+  src: url(assets/fonts/HelveticaNeueCyr-Medium.ttf);
+}
+
+:root {
+  --main-text-color: #6f536f;
+  --background-color: #efedec;
+  --primary-button-bg-color: #ffffff;
+}
+
+h1 {
+  font-family: helveticaBold;
+}
+
+body{
+  background-color: var(--background-color);
+}
+
+.title{
+  font-family: helveticaBold;
+  color: var(--main-text-color);
+  font-size: 24px;
+}
+
+.mainTitle {
+  font-size: 42px;
+  margin-top: 2rem;
+  font-family: helveticaBold;
+  color: var(--main-text-color);
+}
+
+.cardTitle {
+  font-size: 15px;
+  color: var(--main-text-color);
+  font-family: helveticaBold;
+}
+
+.cardSubtitle {
+  font-size: 13px;
+  color: var(--main-text-color);
+  font-family: helveticaBold;
+}
+
+.cardContent {
+  font-size: 16px;
+  color: var(--main-text-color);
+  font-family: helveticaLight;
+}
+
+.btn-primary {
+  background-color: var(--primary-button-bg-color);
+  border-color: var(--primary-button-bg-color);
+  border-radius: 5;
+  font-size: 14px;
+  padding: 1rem 2rem;
+  font-family: helveticaMedium;
+  color: var(--main-text-color);
+}
+
+.btn-secondary {
+  background-color: inherit;
+  color: var(--main-text-color);
+  border-color: var(--main-text-color);
+  border-radius: 5px;
+  border-width: 2px;
+  font-family: helveticaMedium;
+}
+
+.footerTitle{
+  font-size: 19px;
+  color: var(--main-text-color);
+  font-family: helveticaBold;
+}
+
+.copywrite{
+  font-size: 12px;
+  color: var(--main-text-color);
+  font-family: helveticaLight;
+}
